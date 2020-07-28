@@ -101,6 +101,9 @@
                     outputFullPath,
                     outputFileName);
 
+                if(!File.Exists(outputFilePath))
+                    Directory.CreateDirectory(Path.GetDirectoryName(outputFilePath));
+
                 var content = GetJsonContent(embeddedResourcesItem.ItemSpec);
 
                 using (var file = new StreamWriter(outputFilePath))
@@ -108,11 +111,17 @@
                     file.Write(content);
                 }
 
-                // make a copy in the project path
-                var sourceFilePath = Path.Combine(
-                   ProjectPath,
-                   outputFileName);
-                File.Copy(outputFilePath, sourceFilePath, true);
+                // make a copy in the project's "Resources" directory
+               var resourcesFilePath = Path.Combine(
+                  ProjectPath,
+                  "Resources",
+                  "json",
+                  outputFileName);
+
+                if (!File.Exists(resourcesFilePath))
+                    Directory.CreateDirectory(Path.GetDirectoryName(resourcesFilePath));
+
+                File.Copy(outputFilePath, resourcesFilePath, true);
 
                 BuildEngine.LogMessageEvent(
                     new BuildMessageEventArgs(
