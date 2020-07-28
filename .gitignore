@@ -1,0 +1,7 @@
+.vs
+.vscode
+.idea
+ResxToJsonNg.MSBuild/bin/
+ResxToJsonNg.MSBuild/obj/
+.nuget/nuget.exe
+packages
