@@ -1,0 +1,13 @@
+C:\Users\rtoth007\Downloads\Manishkp-resxtojson.msbuild-8177d76ebdf3(2)\source\ResxToJson.MSBuild\bin\Debug\ResxToJsonNg.MSBuild.dll
+C:\Users\rtoth007\Downloads\Manishkp-resxtojson.msbuild-8177d76ebdf3(2)\source\ResxToJson.MSBuild\bin\Debug\ResxToJsonNg.MSBuild.pdb
+C:\Users\rtoth007\Downloads\Manishkp-resxtojson.msbuild-8177d76ebdf3(2)\source\ResxToJson.MSBuild\obj\Debug\ResxToJsonNg.MSBuild.dll
+C:\Users\rtoth007\Downloads\Manishkp-resxtojson.msbuild-8177d76ebdf3(2)\source\ResxToJson.MSBuild\obj\Debug\ResxToJsonNg.MSBuild.pdb
+C:\Users\rtoth007\source\repos\ResxToJsonNg.MSBuild\source\ResxToJsonNg.MSBuild\bin\Debug\ResxToJsonNg.MSBuild.dll
+C:\Users\rtoth007\source\repos\ResxToJsonNg.MSBuild\source\ResxToJsonNg.MSBuild\bin\Debug\ResxToJsonNg.MSBuild.pdb
+C:\Users\rtoth007\source\repos\ResxToJsonNg.MSBuild\source\ResxToJsonNg.MSBuild\obj\Debug\ResxToJsonNg.MSBuild.dll
+C:\Users\rtoth007\source\repos\ResxToJsonNg.MSBuild\source\ResxToJsonNg.MSBuild\obj\Debug\ResxToJsonNg.MSBuild.pdb
+C:\Users\rtoth007\Source\Repos\ResxToJsonNg.MSBuild\source\ResxToJsonNg.MSBuild\obj\Debug\ResxToJsonNg.MSBuild.csprojAssemblyReference.cache
+C:\Users\rtoth007\source\repos\ResxToJsonNg.MSBuild\ResxToJsonNg.MSBuild\bin\Debug\ResxToJsonNg.MSBuild.dll
+C:\Users\rtoth007\source\repos\ResxToJsonNg.MSBuild\ResxToJsonNg.MSBuild\bin\Debug\ResxToJsonNg.MSBuild.pdb
+C:\Users\rtoth007\source\repos\ResxToJsonNg.MSBuild\ResxToJsonNg.MSBuild\obj\Debug\ResxToJsonNg.MSBuild.dll
+C:\Users\rtoth007\source\repos\ResxToJsonNg.MSBuild\ResxToJsonNg.MSBuild\obj\Debug\ResxToJsonNg.MSBuild.pdb

@@ -1,0 +1,28 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Specify where tasks are implemented. -->
+  <UsingTask AssemblyFile="$(MSBuildThisFileDirectory)..\tools\ResxToJsonNg.MSBuild.dll" TaskName="ResxToJsonNgTask"/>
+
+  <PropertyGroup>
+    <BuildDependsOn>$(BuildDependsOn);ResxToJsonNg</BuildDependsOn>
+    <RebuildDependsOn>ResxToJsonNg;$(RebuildDependsOn)</RebuildDependsOn>
+  </PropertyGroup>
+
+  <!-- Define target: StyleCop -->
+  <Target Name="ResxToJsonNg">
+    <!-- Determine what files should be checked. Take all Compile items, but exclude those that have
+        set ExcludeFromStyleCop=true or ExcludeFromSourceAnalysis=true. -->
+    <CreateItem Include="@(EmbeddedResource)">
+      <Output TaskParameter="Include" ItemName="ResxFiles"/>
+    </CreateItem>
+
+    <Message Text="Processing @(ResxFiles)" Importance="Low" />
+
+    <!-- Run the StyleCop MSBuild task. -->
+    <ResxToJsonNgTask
+      AssemblyName="$(AssemblyName)"
+      OutputPath="$(OutDir)"
+      ProjectPath="$(MSBuildProjectDirectory)" 
+      EmbeddedResourcesItems="@(ResxFiles)">
+    </ResxToJsonNgTask>
+  </Target>
+</Project>

@@ -1,0 +1,5 @@
+C:\Users\rtoth007\Downloads\Manishkp-resxtojson.msbuild-8177d76ebdf3(2)\source\ResxToJson.MSBuild\bin\Debug\ResxToJs.MSBuild.dll
+C:\Users\rtoth007\Downloads\Manishkp-resxtojson.msbuild-8177d76ebdf3(2)\source\ResxToJson.MSBuild\bin\Debug\ResxToJs.MSBuild.pdb
+C:\Users\rtoth007\Downloads\Manishkp-resxtojson.msbuild-8177d76ebdf3(2)\source\ResxToJson.MSBuild\obj\Debug\ResxToJs.MSBuild.dll
+C:\Users\rtoth007\Downloads\Manishkp-resxtojson.msbuild-8177d76ebdf3(2)\source\ResxToJson.MSBuild\obj\Debug\ResxToJs.MSBuild.pdb
+C:\Users\rtoth007\Downloads\Manishkp-resxtojson.msbuild-8177d76ebdf3(2)\source\ResxToJson.MSBuild\obj\Debug\ResxToJs.MSBuild.csprojAssemblyReference.cache
